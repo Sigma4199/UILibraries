@@ -1010,7 +1010,7 @@ local defaults; do
         topcolor       = Color3.fromRGB(30, 30, 30);
         titlecolor     = Color3.fromRGB(255, 255, 255);
         
-        underlinecolor = Color3.fromRGB(0, 255, 140);
+        underlinecolor = "rainbow";
         bgcolor        = Color3.fromRGB(35, 35, 35);
         boxcolor       = Color3.fromRGB(35, 35, 35);
         btncolor       = Color3.fromRGB(25, 25, 25);
