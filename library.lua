@@ -1019,7 +1019,7 @@ local defaults; do
         bordercolor    = Color3.fromRGB(60, 60, 60);
 
         font           = Enum.Font.SourceSans;
-        titlefont      = Enum.Font.Code;
+        titlefont      = Enum.Font.SourceSansBold;
 
         fontsize       = 17;
         titlesize      = 18;
