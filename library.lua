@@ -1,4 +1,4 @@
-local library = {count = 0, queue = {}, callbacks = {}, rainbowtable = {}, toggled = true, binds = {}};
+local library = {count = 0, queue = {}, callbacks = {}, rainbowtable = {newWindow:FindFirstChild('Underline')}, toggled = true, binds = {}};
 local defaults; do
     local dragger = {}; do
         local mouse        = game:GetService("Players").LocalPlayer:GetMouse();
