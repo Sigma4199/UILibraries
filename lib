@@ -388,7 +388,7 @@ function uESP:Draw()
 		return;
 	end
 
-	for i, v in pairs(Players:GetPlayers()) do
+	for i, v in pairs(game:GetService("Players"):GetPlayers()) do
 		uESP:DrawPlayer(v);
 	end
 	for i, v in pairs(self.RenderList) do
